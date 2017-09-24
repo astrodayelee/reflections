@@ -1,0 +1,39 @@
+
+did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    yes
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    As I can see the history of modification, as it is automatically saved 
+in VC, it helps to find typos or compare the improvement with the past.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Google docs can save my unwanted change to the file, but maybe I can 
+just forget to manually commit the change in Github.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    convenient, when tracking multiple files that are related each other, such as html & css,
+or chapters of novels.
+
+How can you use the commands git log and git diff to view the history of files?
+
+   git log ; show history of commits, message, ID
+git diff ID1, ID2 ; show differences made, red for deletion, green for addition
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    because the formal history is already stored, so don't have to worry of 
+spoiling the former file
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Through checkout, I can check which commit caused the bug
