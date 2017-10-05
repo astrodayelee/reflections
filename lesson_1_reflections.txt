@@ -36,4 +36,4 @@ spoiling the former file
 
 Now that you have your workspace set up, what do you want to try using Git for?
 
-    Through checkout, I can check which commit caused the bug
+    Through checkout, I can check which commit caused the bug...

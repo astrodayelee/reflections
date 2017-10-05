@@ -1,21 +1,37 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-created .git file which is the metadata on the history of the repository
+- created .git file which is the metadata on the history of the repository
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
+- you put things in staging area before making commitment. it helps make less 
+commitments, and regard several modifications of files of logically connected
+to be one commitment.
+
+
 How can you use the staging area to make sure you have one commit per logical
 change?
+- you can make modifications on multiple files and and put them in the staging
+area at once, then it make one commit, which would be the same logical change 
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+- when I want to leave the original version and make new versions ; such as
+developing experimental feature, or make Italian version.
 
 How do the diagrams help you visualize the branch structure?
+- git log --graph --oneline master coins
+shows you branches, progresses made separately..
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+- git merge master coins
+compared its common parent commit, and add new and delete what they don't have
+
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+- automatically merge those parts that are obvious, but still needed to mannually
+handle where the same part is changed differently
 
